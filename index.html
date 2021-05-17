@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Ecom App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+        <header>
+            <a href = "#" class = "logo"><span>Ecommerce </span>Application</a>
+            <input type="checkbox" id = "menu-bar">
+            <label for="menu-bar" class = "fas fa-bars"></label>
+            <nav class="navbar">
+                <a href = "#home">Home</a>
+                <a href = "#features">Features</a>
+                <a href = "#about">About</a>
+                <a href = "#review">Reviews</a>
+                <a href = "#pricing">Pricing</a>
+                <a href = "#contact">Contact Us</a>
+            </nav>
+        </header>
+        <section class="home" id = "home">
+            <div class="content">
+                <h3>Ecommerce <span>Application</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna rhoncus, interdum est eu, aliquam enim. Sed at viverra velit. Maecenas ultrices porttitor erat et dapibus. Integer rutrum ante id facilisis posuere. </p>
+                <a href = "#" class="btn">Download Now</a>
+            </div>
+            <div class="image">
+                <img src="images/home-img.png">
+            </div>
+        </section>
+        <section class="features" id="features">
+            <h1 class="heading">App Features</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/f-icon1.png" alt="">
+                    <h3>Amazing UI Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna rhoncus, interdum est eu, aliquam enim.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="images/f-icon2.png" alt="">
+                    <h3>Soft and Smooth Animations</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna rhoncus, interdum est eu, aliquam enim.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="images/f-icon3.png" alt="">
+                    <h3>Friendly Interface</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna rhoncus, interdum est eu, aliquam enim.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading">About the Application</h1>
+            <div class="column">
+                <div class="image">
+                    <img src="images/about-img.png" alt="">
+                </div>
+                <div class="content">
+                  <h3>Easy and Perfect Ecommerce Solution for you</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vel totam nostrum provident cupiditate nam. Soluta aperiam possimus sapiente laudantium modi. Commodi recusandae voluptatibus cupiditate quas asperiores quis alias laudantium?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestias repellat, officiis itaque doloremque obcaecati a eos ab quia sit dicta, molestiae quibusdam vitae debitis neque laborum id cum ad.</p>
+                  
+                <div class="buttons">
+                    <a href="#" class="btn"><i class="fab fa-apple"></i> App Store</a>
+                    <a href="#" class="btn"><i class="fab fa-google-play"></i> Google Play</a>
+
+
+                </div>
+                </div>
+            </div>
+        </section>
+        <div class="newsletter">
+            <h3>Subscribe For New Features</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, eligendi repellendus minima, voluptates illo dolorem, similique nulla ex rerum reprehenderit consectetur eius. In fuga voluptatem reiciendis qui blanditiis ad atque.</p>
+            <form action="">
+                <input type="email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+      
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Customer's review </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic1.png" alt="">
+                <h3>Bhoomika Gupta</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic2.png" alt="">
+                <h3>Ayush Agrawal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="images/pic3.png" alt="">
+                <h3>Heeral</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="comment">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="pricing" id="pricing">
+
+    <h1 class="heading"> Our Pricing Plans </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">basic</h3>
+            <div class="price">$10<span>/monthly</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
+                <li> <i class="fas fa-check"></i> No transaction fees </li>
+                <li> <i class="fas fa-times"></i> unlimited storage </li>
+                <li> <i class="fas fa-times"></i> 5 downloads </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">standard</h3>
+            <div class="price">$15<span>/monthly</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
+                <li> <i class="fas fa-check"></i> No transaction fees </li>
+                <li> <i class="fas fa-check"></i> unlimited storage </li>
+                <li> <i class="fas fa-times"></i> 5 downloads </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">premium</h3>
+            <div class="price">$25<span>/monthly</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
+                <li> <i class="fas fa-check"></i> No transaction fees </li>
+                <li> <i class="fas fa-check"></i> unlimited storage </li>
+                <li> <i class="fas fa-check"></i> 5 downloads </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="images/contact-img.png" alt="">
+    </div>
+
+    <form action="">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>name</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>email</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="tel" required>
+            <label>phone</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>message</label>
+        </div>
+
+        <input type="submit" class="btn" value="send message">
+
+    </form>
+
+</section>
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur rerum consectetur architecto ad tempora blanditiis quo aliquid inventore a.</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="#pricing">pricing</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            
+            <a href="#">twitter</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <div class="info">
+                <i class="fas fa-phone"></i>
+                <p> +91-8319385853 <br> +91-7457030549 </p>
+            </div>
+            <!-- <div class="info">
+                <i class="fas fa-envelope"></i>
+                <p> example@gmail.com <br> example@gmail.com </p>
+            </div> -->
+            <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p> jaipur, india - 303007 </p>
+            </div>
+        </div>
+
+    </div>
+
+    
+</div>
+
+
+    </body>
+</html>
